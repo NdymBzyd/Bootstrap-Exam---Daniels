@@ -239,7 +239,7 @@ i{
 }
 /* ---------------- Home ---------------- */
 .home{
-    background-image: url(../Img/bg.jpg);
+    background-image: url(../img/bg.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -336,7 +336,7 @@ i{
     position: absolute;
     left: 17px;
     bottom: -30px;
-    background-image: url(../Img/dots.png);
+    background-image: url(../img/dots.png);
     background-repeat: repeat;
     z-index: -1;
 }
