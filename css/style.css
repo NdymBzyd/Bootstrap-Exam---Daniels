@@ -233,10 +233,30 @@ i{
 .nav-link.active::before{
     width: 78%;
     visibility: visible;
-
 }
 
 }
+@media screen and (max-width: 600px){
+    .navbar-nav{
+        background-color: rgb(255, 255, 255);
+    }
+    .nav-item{
+        margin: auto;
+    }
+    .nav-link{
+        color: black!important;
+        width: fit-content;
+    }
+    .nav-link::before{
+        background-color: black!important;
+    }
+    .nav-link:hover::before{
+        left: 5px!important;
+    }
+    .nav-link.active::before{
+        left: 5px!important;
+    }
+    }
 /* ---------------- Home ---------------- */
 .home{
     background-image: url(../img/bg.jpg);
